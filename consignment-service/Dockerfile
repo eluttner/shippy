@@ -1,4 +1,4 @@
-FROM golang:1.9.0 as builder
+FROM 1.10.2 as builder
 
 WORKDIR /go/src/github.com/eluttner/shippy/consignment-service
 
